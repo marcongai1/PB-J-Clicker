@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yellowback"
+    android:padding="10dp"
+    tools:context=".MarcoNgai">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/luckiest_guy"
+        android:gravity="center"
+        android:text="ITS PEANUT BUTTER JELLY TIME!"
+        android:textColor="@color/familyguyblue"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:layout_alignLeft="@id/title"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="PB&amp;Js:\n0"
+        android:textColor="@color/familyguyblue"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/pbj"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        app:srcCompat="@drawable/pbj" />
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+1"
+        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/pbj" />
+
+    <Button
+        android:id="@+id/upgradeMenu"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/jellypurp"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="UPGRADES"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="@color/jellypurp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/pbj"
+        android:visibility="invisible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignRight="@id/imageView1"
+        android:layout_marginRight="100dp"
+        android:layout_alignBottom="@id/imageView1"
+        android:visibility="invisible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignLeft="@id/imageView1"
+        android:layout_marginLeft="100dp"
+        android:layout_alignBottom="@id/imageView1"
+        android:visibility="invisible"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+</RelativeLayout>

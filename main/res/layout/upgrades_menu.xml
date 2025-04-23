@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/yellowback">
+
+    <TextView
+        android:id="@+id/pbjtotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="TOTAL PB&amp;Js: "
+        android:textColor="@color/familyguyblue"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/clicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pbjtotal"
+        android:backgroundTint="@color/peanutbrown"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Clicker"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/clickerdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clicker"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="The Clicker upgrade gives +1 PBJ per click (COST: 10)"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/brian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/clickerdesc"
+        android:backgroundTint="@color/peanutbrown"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="BRIAN"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/briandesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/brian"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="The BRIAN upgrade adds a dancing BRIAN to the bottom of the screen (Max 3). Brian will make 10 PBJs/sec. (COST: 100)"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/StickyFingers"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/briandesc"
+        android:backgroundTint="@color/peanutbrown"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Sticky Fingers"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/StickyFingersdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StickyFingers"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Increase BRIAN's peanut butter spread efficiency by +5 with sticky fingers! (per BRIAN) (COST: 1000)"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/StickyFingersdesc"
+        android:backgroundTint="@color/peanutbrown"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="The Holy Music of the PB&amp;J Gods"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/musicdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/music"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Playing this holy music will increase BRIAN's efficiency by 2x (This is Toggleable on/off Max 1 upgrade) (COST: 12345)"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/SandwichSupreme"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/musicdesc"
+        android:backgroundTint="@color/peanutbrown"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="Sandwich Supreme"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/SandwichSupremedesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/SandwichSupreme"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="ACHIEVE PEANUT BUTTER AND JELLY SUPREMACY!!! WIN THE GAME!!!(COST: 9999999)"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="@color/familyguyblue"
+        android:fontFamily="@font/luckiest_guy"
+        android:text="BACK"
+        android:textSize="25sp" />
+
+
+</RelativeLayout>
