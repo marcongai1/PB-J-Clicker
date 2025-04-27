@@ -16,4 +16,4 @@ An addictive idle clicker game for Android where you make peanut butter and jell
 ## Installation 📲
 1. Clone this repository:
    ```bash
-   git clone https://github.com/your-username/pbj-clicker.git
+   git clone https://github.com/marcongai1/PB-J-Clicker.git
